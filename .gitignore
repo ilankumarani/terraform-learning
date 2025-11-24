@@ -1,0 +1,32 @@
+.DS_Store
+target
+m2e-target/
+bin
+test-output
+nb-configuration.xml
+.classpath
+.project
+.settings
+*.iml
+.idea
+/.metadata
+.cache
+derby.log
+/devops/.tmp
+/devops/.librarian
+/devops/.vagrant
+/devops/Puppetfile.lock
+/devops/modules
+/devops/*.rpm.zip
+/devops/**/*.semaphore
+/devops/test-connection/.lein-repl-history
+**/.flattened-pom.xml
+
+.java-version
+.checkstyle
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
