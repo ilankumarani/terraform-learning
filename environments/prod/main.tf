@@ -1,6 +1,7 @@
 module "iam_admin" {
   # Git repo + subfolder + branch
-  source = "app.terraform.io/Terraform_Module/iam-admin/aws"
+  source  = "app.terraform.io/Terraform_Module/iam-admin/aws"
+  version = "1.0.0"
 
   admin_group_name            = "TERRAFORM_ADMIN_GROUP_PROD"
   usernames                   = ["terraform_user_prod1"]
