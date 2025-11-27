@@ -21,6 +21,8 @@ derby.log
 /devops/**/*.semaphore
 /devops/test-connection/.lein-repl-history
 **/.flattened-pom.xml
+**/.terraform
+**/.terraform.lock.hcl
 
 .java-version
 .checkstyle
