@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 1.6.0" # Terraform version, if this property not provided, then it always takes the latest
+  required_version = ">= 1.14.0" # Terraform version, if this property not provided, then it always takes the latest
 
   required_providers {
     aws = {
